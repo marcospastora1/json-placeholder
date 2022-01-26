@@ -1,3 +1,4 @@
+import 'package:ekko/presentation/fotos/fotos.screen.dart';
 import 'package:ekko/presentation/screens.dart';
 import 'package:get/get.dart';
 
@@ -30,6 +31,21 @@ class Nav {
       name: Routes.albuns,
       page: () => AlbunsScreen(),
       binding: AlbunsControllerBinding(),
+    ),
+    GetPage(
+      name: Routes.comments,
+      page: () => CommentsScreen(),
+      binding: CommentsControllerBinding(),
+    ),
+    GetPage(
+      name: Routes.fotos,
+      page: () => FotosScreen(),
+      binding: FotosControllerBinding(),
+    ),
+    GetPage(
+      name: Routes.images,
+      page: () => ImageScreen(),
+      binding: ImageControllerBinding(),
     ),
   ];
 }

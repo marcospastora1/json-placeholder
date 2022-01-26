@@ -17,10 +17,6 @@ class HomeController extends GetxController {
     loadUsers();
   }
 
-  void click() {
-    userId.value = users[3].id;
-  }
-
   Future<void> loadUsers() async {
     try {
       final response = await _usersRepository.getUsers();

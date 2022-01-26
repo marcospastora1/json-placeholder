@@ -16,4 +16,7 @@ class Routes {
   static const login = '/login';
   static const menu = '/menu';
   static const albuns = '/albuns';
+  static const comments = '/comments';
+  static const fotos = '/fotos';
+  static const images = '/images';
 }
