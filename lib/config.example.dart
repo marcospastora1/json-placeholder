@@ -22,7 +22,7 @@ class ConfigEnvironments {
     },
     {
       'env': Environments.production,
-      'url': 'https://api-ekko.herokuapp.com/api/',
+      'url': 'https://jsonplaceholder.typicode.com/',
     },
   ];
 
